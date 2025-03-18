@@ -8,12 +8,11 @@ from deep_reps.alignment_measures import (
     partial_whitening_shape_metric,
 )
 from deep_reps.cca_measures import (
-    compute_cca,
-    compute_standard_cca,
-    compute_standard_svcca,
-    compute_wvcca,
-    compute_yanai_cca,
-    compute_yanai_svcca,
+    BaseCCA,
+    StandardCCA,
+    YanaiCCA,
+    SVCCA,
+    PWCCA,
 )
 from deep_reps.models import CLIPAndTokenizerLayers
 from deep_reps.neighbors_measures import (
